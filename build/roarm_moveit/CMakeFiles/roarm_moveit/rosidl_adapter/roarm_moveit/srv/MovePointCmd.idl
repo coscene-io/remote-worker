@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from roarm_moveit/srv/MovePointCmd.srv
+// generated code does not contain a copyright notice
+
+
+module roarm_moveit {
+  module srv {
+    @verbatim (language="comment", text=
+      "MovePointCmd.srv" "\n"
+      "请求部分")
+    struct MovePointCmd_Request {
+      @verbatim (language="comment", text=
+        "目标位置的x坐标")
+      double x;
+
+      @verbatim (language="comment", text=
+        "目标位置的y坐标")
+      double y;
+
+      @verbatim (language="comment", text=
+        "目标位置的z坐标")
+      double z;
+    };
+    @verbatim (language="comment", text=
+      "响应部分")
+    struct MovePointCmd_Response {
+      @verbatim (language="comment", text=
+        "执行是否成功的标志")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "执行结果的消息")
+      string message;
+    };
+  };
+};

@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from roarm_moveit/srv/GetPoseCmd.srv
+// generated code does not contain a copyright notice
+
+
+module roarm_moveit {
+  module srv {
+    @verbatim (language="comment", text=
+      "GetPoseCmd" "\n"
+      "请求部分")
+    struct GetPoseCmd_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "响应部分")
+    struct GetPoseCmd_Response {
+      @verbatim (language="comment", text=
+        "目标位置的x坐标")
+      double x;
+
+      @verbatim (language="comment", text=
+        "目标位置的y坐标")
+      double y;
+
+      @verbatim (language="comment", text=
+        "目标位置的z坐标")
+      double z;
+    };
+  };
+};
