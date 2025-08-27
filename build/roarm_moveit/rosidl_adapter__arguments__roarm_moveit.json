@@ -1,0 +1,8 @@
+{
+  "package_name": "roarm_moveit",
+  "non_idl_tuples": [
+    "/home/pbdq/roarm_ws/src/roarm_moveit:srv/GetPoseCmd.srv",
+    "/home/pbdq/roarm_ws/src/roarm_moveit:srv/MovePointCmd.srv",
+    "/home/pbdq/roarm_ws/src/roarm_moveit:srv/MoveCircleCmd.srv"
+  ]
+}
