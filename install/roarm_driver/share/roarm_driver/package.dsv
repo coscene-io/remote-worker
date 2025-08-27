@@ -1,0 +1,9 @@
+source;share/roarm_driver/hook/pythonpath.ps1
+source;share/roarm_driver/hook/pythonpath.dsv
+source;share/roarm_driver/hook/pythonpath.sh
+source;share/roarm_driver/hook/ament_prefix_path.ps1
+source;share/roarm_driver/hook/ament_prefix_path.dsv
+source;share/roarm_driver/hook/ament_prefix_path.sh
+source;../../build/roarm_driver/share/roarm_driver/hook/pythonpath_develop.ps1
+source;../../build/roarm_driver/share/roarm_driver/hook/pythonpath_develop.dsv
+source;../../build/roarm_driver/share/roarm_driver/hook/pythonpath_develop.sh
