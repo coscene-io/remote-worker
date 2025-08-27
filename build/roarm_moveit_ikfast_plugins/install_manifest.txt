@@ -1,0 +1,3 @@
+/home/pbdq/roarm_ws/install/roarm_moveit_ikfast_plugins/lib/libroarm_description_hand_moveit_ikfast_plugin.so
+/home/pbdq/roarm_ws/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/cmake/export_roarm_moveit_ikfast_pluginsExport.cmake
+/home/pbdq/roarm_ws/install/roarm_moveit_ikfast_plugins/share/roarm_moveit_ikfast_plugins/cmake/export_roarm_moveit_ikfast_pluginsExport-noconfig.cmake

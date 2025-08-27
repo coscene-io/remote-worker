@@ -1,0 +1,4 @@
+source;share/roarm_moveit_ikfast_plugins/local_setup.bash
+source;share/roarm_moveit_ikfast_plugins/local_setup.dsv
+source;share/roarm_moveit_ikfast_plugins/local_setup.sh
+source;share/roarm_moveit_ikfast_plugins/local_setup.zsh
