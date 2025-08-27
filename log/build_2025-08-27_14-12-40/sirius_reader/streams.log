@@ -1,0 +1,25 @@
+[0.355s] Invoking command in '/home/pbdq/roarm_ws/build/sirius_reader': PYTHONPATH=/home/pbdq/roarm_ws/build/sirius_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pbdq/roarm_ws/install/sirius_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pbdq/roarm_ws/build/sirius_reader/build --no-deps symlink_data
+[0.501s] running develop
+[0.593s] running egg_info
+[0.593s] creating sirius_reader.egg-info
+[0.593s] writing sirius_reader.egg-info/PKG-INFO
+[0.593s] writing dependency_links to sirius_reader.egg-info/dependency_links.txt
+[0.593s] writing entry points to sirius_reader.egg-info/entry_points.txt
+[0.593s] writing requirements to sirius_reader.egg-info/requires.txt
+[0.593s] writing top-level names to sirius_reader.egg-info/top_level.txt
+[0.593s] writing manifest file 'sirius_reader.egg-info/SOURCES.txt'
+[0.594s] reading manifest file 'sirius_reader.egg-info/SOURCES.txt'
+[0.594s] writing manifest file 'sirius_reader.egg-info/SOURCES.txt'
+[0.595s] running build_ext
+[0.595s] Creating /home/pbdq/roarm_ws/install/sirius_reader/lib/python3.10/site-packages/sirius-reader.egg-link (link to .)
+[0.596s] Installing sirius_reader script to /home/pbdq/roarm_ws/install/sirius_reader/lib/sirius_reader
+[0.596s] 
+[0.596s] Installed /home/pbdq/roarm_ws/build/sirius_reader
+[0.596s] running symlink_data
+[0.596s] symbolically linking /home/pbdq/roarm_ws/build/sirius_reader/SiriusCeptionBin.cpython-310-x86_64-linux-gnu.so -> /home/pbdq/roarm_ws/install/sirius_reader/lib/sirius_reader
+[0.596s] creating /home/pbdq/roarm_ws/install/sirius_reader/share/ament_index
+[0.596s] creating /home/pbdq/roarm_ws/install/sirius_reader/share/ament_index/resource_index
+[0.596s] creating /home/pbdq/roarm_ws/install/sirius_reader/share/ament_index/resource_index/packages
+[0.596s] symbolically linking /home/pbdq/roarm_ws/build/sirius_reader/resource/sirius_reader -> /home/pbdq/roarm_ws/install/sirius_reader/share/ament_index/resource_index/packages
+[0.596s] symbolically linking /home/pbdq/roarm_ws/build/sirius_reader/package.xml -> /home/pbdq/roarm_ws/install/sirius_reader/share/sirius_reader
+[0.612s] Invoked command in '/home/pbdq/roarm_ws/build/sirius_reader' returned '0': PYTHONPATH=/home/pbdq/roarm_ws/build/sirius_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pbdq/roarm_ws/install/sirius_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pbdq/roarm_ws/build/sirius_reader/build --no-deps symlink_data

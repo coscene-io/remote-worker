@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating sirius_reader.egg-info
+writing sirius_reader.egg-info/PKG-INFO
+writing dependency_links to sirius_reader.egg-info/dependency_links.txt
+writing entry points to sirius_reader.egg-info/entry_points.txt
+writing requirements to sirius_reader.egg-info/requires.txt
+writing top-level names to sirius_reader.egg-info/top_level.txt
+writing manifest file 'sirius_reader.egg-info/SOURCES.txt'
+reading manifest file 'sirius_reader.egg-info/SOURCES.txt'
+writing manifest file 'sirius_reader.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pbdq/roarm_ws/install/sirius_reader/lib/python3.10/site-packages/sirius-reader.egg-link (link to .)
+Installing sirius_reader script to /home/pbdq/roarm_ws/install/sirius_reader/lib/sirius_reader
+
+Installed /home/pbdq/roarm_ws/build/sirius_reader
+running symlink_data
+symbolically linking /home/pbdq/roarm_ws/build/sirius_reader/SiriusCeptionBin.cpython-310-x86_64-linux-gnu.so -> /home/pbdq/roarm_ws/install/sirius_reader/lib/sirius_reader
+creating /home/pbdq/roarm_ws/install/sirius_reader/share/ament_index
+creating /home/pbdq/roarm_ws/install/sirius_reader/share/ament_index/resource_index
+creating /home/pbdq/roarm_ws/install/sirius_reader/share/ament_index/resource_index/packages
+symbolically linking /home/pbdq/roarm_ws/build/sirius_reader/resource/sirius_reader -> /home/pbdq/roarm_ws/install/sirius_reader/share/ament_index/resource_index/packages
+symbolically linking /home/pbdq/roarm_ws/build/sirius_reader/package.xml -> /home/pbdq/roarm_ws/install/sirius_reader/share/sirius_reader
