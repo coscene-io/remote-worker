@@ -1,0 +1,3 @@
+/home/pbdq/roarm_ws/build/roarm_moveit/rosidl_adapter/roarm_moveit:srv/GetPoseCmd.idl
+/home/pbdq/roarm_ws/build/roarm_moveit/rosidl_adapter/roarm_moveit:srv/MovePointCmd.idl
+/home/pbdq/roarm_ws/build/roarm_moveit/rosidl_adapter/roarm_moveit:srv/MoveCircleCmd.idl
