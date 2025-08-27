@@ -1,0 +1,4 @@
+source;share/roarm_moveit/environment/ament_prefix_path.sh
+source;share/roarm_moveit/environment/library_path.sh
+source;share/roarm_moveit/environment/path.sh
+source;share/roarm_moveit/environment/pythonpath.sh
