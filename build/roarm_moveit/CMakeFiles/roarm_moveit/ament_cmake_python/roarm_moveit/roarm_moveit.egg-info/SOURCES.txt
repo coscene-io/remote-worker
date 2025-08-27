@@ -1,0 +1,6 @@
+setup.py
+roarm_moveit/__init__.py
+roarm_moveit.egg-info/PKG-INFO
+roarm_moveit.egg-info/SOURCES.txt
+roarm_moveit.egg-info/dependency_links.txt
+roarm_moveit.egg-info/top_level.txt
