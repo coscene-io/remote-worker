@@ -1,22 +1,21 @@
-# remote-worker
 1 Installing ROS2 Applications for REMOTE WORKER on Ubuntu 22.04 (ROS2 Humble)
+
 ---
 1.1 Downloading the Project and Installing Dependencies
 Update software sources:
-  sudo apt update
-  Upgrade the system:
-  sudo apt upgrade
-Install git: 
-  sudo apt install git
+sudo apt update
+Upgrade the system:
+sudo apt upgrade
+Install git:
+sudo apt install git
 Then, clone the project from GitHub:
-  git clone https://github.com/coscene-io/remote-worker
+git clone https://github.com/coscene-io/remote-worker
 Install dependencies:
   sudo apt install software-properties-common
   sudo add-apt-repository universe
   sudo apt update && sudo apt install curl -y
   sudo curl -sSL   https://raw.githubusercontent.com/ros/rosdistro/master/ros.key   -o /usr/share/keyrings/ros-archive-keyring.gpg
-  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg]   http://packages.ros.org/ros2/ubuntu   $(. /etc/os-release && echo $UBUNTU_CODENAME) main"
-  sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg]   http://packages.ros.org/ros2/ubuntu   $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
   sudo apt update
   sudo apt upgrade
   sudo apt install ros-humble-desktop
@@ -62,11 +61,12 @@ remote_worker is a workspace containing multiple ROS2 packages, each serving a s
   Provides configurations for MoveIt, a motion planning framework, including setup files and parameters required for the kinematic control of the robotic arm.
 4.roarm_moveit_ikfast_plugins IKFast Kinematics Solver:
 Implements the IKFast kinematics solver, which is used for efficient and fast inverse kinematics calculations.
-5.ik_solver
-
-6.sirius_reader
-
-7.roarm_bringup
+5.ik_solver Inverse Kinematics Service Node
+  This package provides a node that receives target poses for the robotic arm, computes the corresponding joint angles using IKFast or a custom inverse kinematics solver, and publishes the results for use by the robot driver or higher-level control modules.
+6.sirius_reader Sensor Data Processing
+  This package handles incoming data from external sensors such as vision, localization, or force sensors, performs coordinate transformations to align the sensor data with the robot’s workspace, and publishes the resulting target poses for motion planning and inverse kinematics.
+7.roarm_bringup Integrated Launch System
+  This package serves as the central launch entry point for the entire project, providing launch files that start up the robot driver, model descriptions, MoveIt configurations, sensor processing nodes, and inverse kinematics solver. It streamlines system initialization and enables seamless switching between simulation and real hardware.
 3 Controlling the Physical Robotic Arm with Sensor
 
 ---
