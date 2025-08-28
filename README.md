@@ -29,6 +29,7 @@ Add ROS2 to the source Source the setup script:
   source ~/.bashrc
 Install Python3 libraries:
   sudo apt install python3-pip
+  mkdir ~/remote_worker
   cd ~/remote_worker
   python3 -m pip install -r requirements.txt
 Initial compilation:
