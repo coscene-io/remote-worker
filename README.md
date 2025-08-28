@@ -1,6 +1,5 @@
 1 Installing ROS2 Applications for REMOTE WORKER on Ubuntu 22.04 (ROS2 Humble)
 
----
 1.1 Downloading the Project and Installing Dependencies
 
 Update software sources:
@@ -70,10 +69,10 @@ Contents of build_common.sh (automatically run by the script; no manual executio
   cd ~/remote_worker
   colcon build
   source install/setup.bash 
-```  
+```
+---
 2 remote_worker Package Overview
 
----
 remote_worker is a workspace containing multiple ROS2 packages, each serving a specific purpose in the operation and control of robotic arms. Below is an overview of each package and its main functionalities:
 
 1.roarm_driver Driver for Real Robot:
@@ -102,10 +101,10 @@ Implements the IKFast kinematics solver, which is used for efficient and fast in
 7.roarm_bringup Integrated Launch System
 
   This package serves as the central launch entry point for the entire project, providing launch files that start up the robot driver, model descriptions, MoveIt configurations, sensor processing nodes, and inverse kinematics solver. It streamlines system initialization and enables seamless switching between simulation and real hardware.
-  
-3 Controlling the Physical Robotic Arm with Sensor
 
 ---
+3 Controlling the Physical Robotic Arm with Sensor
+
 3.1 Connect the Devices and Identify the Serial Port
 Before connecting the robotic arm and sensor via USB, check the current serial devices on your Ubuntu system:
 ```
