@@ -1,3 +1,0 @@
-[console_scripts]
-sirius_reader = sirius_reader.sirius_reader:main
-

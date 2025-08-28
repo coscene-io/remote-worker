@@ -1,3 +1,0 @@
-[console_scripts]
-ik_solver = ik_solver.ik_solver:main
-

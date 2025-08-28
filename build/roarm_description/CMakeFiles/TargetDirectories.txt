@@ -1,9 +1,0 @@
-/home/pbdq/roarm_ws/build/roarm_description/CMakeFiles/uninstall.dir
-/home/pbdq/roarm_ws/build/roarm_description/CMakeFiles/roarm_description_uninstall.dir
-/home/pbdq/roarm_ws/build/roarm_description/CMakeFiles/test.dir
-/home/pbdq/roarm_ws/build/roarm_description/CMakeFiles/edit_cache.dir
-/home/pbdq/roarm_ws/build/roarm_description/CMakeFiles/rebuild_cache.dir
-/home/pbdq/roarm_ws/build/roarm_description/CMakeFiles/list_install_components.dir
-/home/pbdq/roarm_ws/build/roarm_description/CMakeFiles/install.dir
-/home/pbdq/roarm_ws/build/roarm_description/CMakeFiles/install/local.dir
-/home/pbdq/roarm_ws/build/roarm_description/CMakeFiles/install/strip.dir
