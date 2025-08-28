@@ -91,14 +91,14 @@ remote_worker is a workspace containing multiple ROS2 packages, each serving a s
 
 Implements the IKFast kinematics solver, which is used for efficient and fast inverse kinematics calculations.
 
-5.ik_solver Inverse Kinematics Service Node
+5.ik_solver Inverse Kinematics Service Node:
 
   This package provides a node that receives target poses for the robotic arm, computes the corresponding joint angles using IKFast or a custom inverse kinematics solver, and publishes the results for use by the robot driver or higher-level control modules.
   
-6.sirius_reader Sensor Data Processing
+6.sirius_reader Sensor Data Processing:
 
   This package handles incoming data from external sensors such as vision, localization, or force sensors, performs coordinate transformations to align the sensor data with the robot’s workspace, and publishes the resulting target poses for motion planning and inverse kinematics.
-7.roarm_bringup Integrated Launch System
+7.roarm_bringup Integrated Launch System:
 
   This package serves as the central launch entry point for the entire project, providing launch files that start up the robot driver, model descriptions, MoveIt configurations, sensor processing nodes, and inverse kinematics solver. It streamlines system initialization and enables seamless switching between simulation and real hardware.
 
