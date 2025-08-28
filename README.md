@@ -141,7 +141,7 @@ Then, recompile the ROS2 packages in the terminal:
 ```
 3.3 Running the project Nodes
 
-According to the ROS2 official documentation, it is not recommended to run ROS2 nodes in the same terminal where you compile the packages. Open a new terminal window using Ctrl + Alt + T.
+According to the ROS2 official documentation, it is not recommended to run ROS2 nodes in the same terminal where you compile the packages. Open a new terminal window using ```Ctrl + Alt + T```.
 Grant serial port permissions and run the ROS2 robotic arm driver node:
 
 Grant read and write permissions to the serial device using the following command (replace /dev/ttyUSB0 and /dev/ttyUSB1 with your actual device path):
