@@ -1,9 +1,0 @@
-source;share/ik_solver/hook/pythonpath.ps1
-source;share/ik_solver/hook/pythonpath.dsv
-source;share/ik_solver/hook/pythonpath.sh
-source;share/ik_solver/hook/ament_prefix_path.ps1
-source;share/ik_solver/hook/ament_prefix_path.dsv
-source;share/ik_solver/hook/ament_prefix_path.sh
-source;../../build/ik_solver/share/ik_solver/hook/pythonpath_develop.ps1
-source;../../build/ik_solver/share/ik_solver/hook/pythonpath_develop.dsv
-source;../../build/ik_solver/share/ik_solver/hook/pythonpath_develop.sh

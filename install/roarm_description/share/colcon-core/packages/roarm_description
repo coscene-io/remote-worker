@@ -1,1 +1,0 @@
-joint_state_publisher:rclcpp:robot_state_publisher:rviz:std_msgs:xacro
