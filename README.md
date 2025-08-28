@@ -81,7 +81,7 @@ You should now see new devices named /dev/ttyUSB0 and /dev/ttyUSB1 at the end of
 3.2 Change the Serial Port Device
 If the detected serial port device are /dev/ttyUSB0 and /dev/ttyUSB1, you can skip this section.
 If the serial port device is not /dev/ttyUSB0 and /dev/ttyUSB1, you need to update the serial port device name in the Python scripts 
-~/remote_worker/src/sirius_reader/sirius_reader/sirius_reader.py by changing line 15:
+~/remote_worker/src/sirius_reader/sirius_reader/sirius_reader.py by changing line 54:
 serial_port = "/dev/ttyUSB0"
 ~/remote_worker/src/roarm_driver/roarm_driver/roarm_driver.py by changing line 15:
 serial_port = "/dev/ttyUSB1"
