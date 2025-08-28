@@ -147,7 +147,9 @@ Grant read and write permissions to the serial device using the following comman
 ```
 sudo chmod 666 /dev/ttyUSB0
 sudo chmod 666 /dev/ttyUSB1
+```
 Launch the nodes:
+```
 source install/setup.bash
 ros2 launch roarm_bringup bringup.launch.py
 ```
